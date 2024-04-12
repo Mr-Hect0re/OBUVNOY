@@ -1,0 +1,208 @@
+main {
+    background-color: #f1f0f0;
+    padding-top: 15px;
+}
+
+.productblock {
+   justify-content: left; 
+   align-items: flex-start;
+}
+
+.productblock .menu {
+    width: 200px;
+}
+
+.productblock .menu a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7d;
+    font-size: 1 em;
+    margin-bottom: 10px;
+    padding: 12px 25px;
+}
+
+.productblock .menu a:hover, .productblock .menu a.active{
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #ebb217;
+    padding: 12px 25px;
+    border-radius: 15px;
+}
+
+.productblock .items {
+    padding-left: 25px;
+}
+
+.productblock .items .sort {
+    margin-bottom: 25px;
+    background-color: #fff;
+    padding: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.productblock .items .sort p {
+    color:#1c1c1d;
+    font-size: 1em;
+    margin-top: 12px;
+    margin-left: 35px;
+}
+
+.productblock .items .sort p a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    width: 65px;
+    background: url('../images/main/up_icon.png') no-repeat;
+    background-position: 100% 50%;
+}
+
+.productblock .items .sort p a:hover {
+    background: url('../images/main/down_icon.png') no-repeat;
+    color: #ebb217;
+    font-weight: 600;
+    background-position: 100% 50%;
+}
+
+.productblock .items .cards {
+    flex-wrap: wrap;
+}
+
+.productblock .items .cards .card {
+    margin-bottom: 30px;
+    margin-left: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 15px 0px;
+    
+}
+
+.cards figure figcaption {
+    padding-left: 25px;
+    color: #4b4b4b;
+    
+}
+
+.cards figure figcaption p {
+    font-size: 0.85em;
+}
+
+.cards figure figcaption p span {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.cards .title {
+    color: #4b4b4b;
+    font-size: 1em;
+    margin-top: 10px;
+   
+}
+
+.cards button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #dfa52d;
+    color: #fff;
+    margin: 15px auto;
+    border: none;
+    
+}
+
+.cards button:hover {
+    cursor: pointer;
+}
+
+.advantages {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 20px;
+
+}
+
+.advantages h2 {
+    text-align: center;
+    margin: 10px 0px;
+    color: #4b4b4b;
+    font-size: 1.85em;
+    font-weight: 600;
+}
+
+.advantages div p {
+    color: #4b4b4b;
+    font-size: 1em;
+    max-width: 275px;
+    display: inline;
+}
+
+.advantages div p span {
+    font-weight: bold;
+}
+
+.advantages div {
+    margin-top: 30px;
+}
+
+.advantages div figure {
+    margin: 0px 50 px;
+    text-align: center;
+}
+
+.advantages div figure figcaption {
+    color: #7b7b7d;
+    font-size: 0.85em;
+
+}
+
+.subscribes {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.subscribes h2 {
+    padding-top: 20px;
+    margin-bottom: 0px;
+    color: #4b4b4b;
+    margin-top: 30px;
+}
+
+.subscribes .title {
+    font-size: 1em;
+    color: #4b4b4b;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+.subscribes form div input {
+    border: 1px solid #dfa52d;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1em;
+    margin-bottom: 45px;
+}
+
+.subscribes form div input [type='email'] {
+    padding: 15px;
+    border: 1px solid;
+    color: #000;
+    width: 5k00px;
+    
+}
+
+.subscribes form div input [type='submit'] {
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #000;
+}
+
+.subscribes form div input [type='submit']:hover {
+    cursor: pointer;
+}
